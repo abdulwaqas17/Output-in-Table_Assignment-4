@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output in Table</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <h1>Write Your Details</h1>  <hr> <br>
+
+    <!-- inuputs is here  -->
+    <div class="inuputs">
+
+        <input type="text" placeholder="Name" id="name">
+        <input type="number" placeholder="Roll Number" id="rollNum">
+        <input type="number" placeholder="HTML Score" id="html" >
+        <input type="number" placeholder="CSS Score" id="css">
+
+    </div> 
+
+    <!-- buttons is here  -->
+    <div class="buttons">
+
+        <button class="submit big" onclick="takeStudentsData()">Submit</button>
+        <button class="Remove big">Remove All</button>
+
+        <div class="two">
+
+            <button class="First short">Remove First</button>
+            <button class="Last short">Remove Last</button>
+            
+        </div>
+        
+    </div> <br> <hr>
+
+
+    <h1>Students Data Is Here</h1> 
+
+    <!-- table is here  -->
+    <table>
+        <tr>
+            <th>S No.</th>
+            <th>Name</th>
+            <th>Roll Number</th>
+            <th>HTML Score</th>
+            <th>CSS Score</th>
+            <th>Performance %</th>
+
+        </tr>
+
+        <tr>
+
+            <td id="1:1"></td>
+            <td id="name1"></td>
+            <td id="rollnum1"></td>
+            <td id="html1"></td>
+            <td id="css1"></td>
+            <td id="perc1"></td>
+
+        </tr>
+<!-- 
+        <tr>
+
+            <td id="i1">01</td>
+            <td id="name1">Waqas</td>
+            <td id="rollnum1">23455</td>
+            <td id="html1">86</td>
+            <td id="css1">83</td>
+            <td id="perc1">100%</td>
+
+        </tr> -->
+
+        <!-- <tr>
+
+            <td>01</td>
+            <td>Waqas</td>
+            <td>23455</td>
+            <td>86</td>
+            <td>83</td>
+            <td>100%</td>
+
+        </tr>
+
+        <tr>
+
+            <td>01</td>
+            <td>Waqas</td>
+            <td>23455</td>
+            <td>86</td>
+            <td>83</td>
+            <td>100%</td>
+
+        </tr>
+
+        <tr>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr> -->
+
+
+    </table>
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

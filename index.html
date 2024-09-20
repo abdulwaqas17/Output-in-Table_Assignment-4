@@ -10,7 +10,7 @@
 <body>
     
 
-    <h1>Write Your Details</h1>  <hr> <br>
+    <h1>SMIT Student Portal </h1>  <hr> <br>
 
     <!-- inuputs is here  -->
     <div class="inuputs">
@@ -26,22 +26,23 @@
     <div class="buttons">
 
         <button class="submit big" onclick="studentsData()">Submit</button>
-        <button class="Remove big">Remove All</button>
+        <button class="Remove big" onclick="removeAll()">Remove All</button>
 
         <div class="two">
 
-            <button class="First short">Remove First</button>
-            <button class="Last short">Remove Last</button>
+            <button class="First short" onclick="removeFirst()">Remove First</button>
+            <button class="Last short" onclick="removeLast()">Remove Last</button>
             
         </div>
         
     </div> <br> <hr>
 
 
-    <h1>Students Data Is Here</h1> 
+    <h1>Scorecard</h1> 
 
     <!-- table is here  -->
     <table>
+
         <tr>
             <th>S No.</th>
             <th>Name</th>
@@ -62,51 +63,50 @@
             <td id="perf1"></td>
 
         </tr>
-<!-- 
+ 
         <tr>
 
-            <td id="i1">01</td>
-            <td id="name1">Waqas</td>
-            <td id="rollnum1">23455</td>
-            <td id="html1">86</td>
-            <td id="css1">83</td>
-            <td id="perc1">100%</td>
+            <td id="2:1"></td>
+            <td id="name2"></td>
+            <td id="rollnum2"></td>
+            <td id="html2"></td>
+            <td id="css2"></td>
+            <td id="perf2"></td>
 
-        </tr> -->
-
-        <!-- <tr>
-
-            <td>01</td>
-            <td>Waqas</td>
-            <td>23455</td>
-            <td>86</td>
-            <td>83</td>
-            <td>100%</td>
-
-        </tr>
-
+        </tr> 
+ 
         <tr>
 
-            <td>01</td>
-            <td>Waqas</td>
-            <td>23455</td>
-            <td>86</td>
-            <td>83</td>
-            <td>100%</td>
+            <td id="3:1"></td>
+            <td id="name3"></td>
+            <td id="rollnum3"></td>
+            <td id="html3"></td>
+            <td id="css3"></td>
+            <td id="perf3"></td>
 
-        </tr>
-
+        </tr> 
+ 
         <tr>
 
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="4:1"></td>
+            <td id="name4"></td>
+            <td id="rollnum4"></td>
+            <td id="html4"></td>
+            <td id="css4"></td>
+            <td id="perf4"></td>
 
-        </tr> -->
+        </tr> 
+ 
+        <tr>
 
+            <td id="5:1"></td>
+            <td id="name5"></td>
+            <td id="rollnum5"></td>
+            <td id="html5"></td>
+            <td id="css5"></td>
+            <td id="perf5"></td>
+
+        </tr> 
 
     </table>
 
